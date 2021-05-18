@@ -1,10 +1,8 @@
-﻿using SalesWebMvc.Data;
+﻿using Microsoft.EntityFrameworkCore;
+using SalesWebMvc.Data;
 using SalesWebMvc.Models;
-using System.Collections.Generic;
 using SalesWebMvc.Services.Exceptions;
-using Microsoft.EntityFrameworkCore;
-using System;
-using System.Linq;
+using System.Collections.Generic;
 using System.Threading.Tasks;
 
 namespace SalesWebMvc.Services
